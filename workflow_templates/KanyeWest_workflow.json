@@ -1,0 +1,2857 @@
+{
+  "last_node_id": 66,
+  "last_link_id": 84,
+  "nodes": [
+    {
+      "id": 31,
+      "type": "Mesh_SelectAll",
+      "pos": [
+        5008.896081010294,
+        2488.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            33
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_SelectAll"
+      },
+      "widgets_values": [
+        "SELECT"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "Object_VertexGroupNewWithName",
+      "pos": [
+        5008.896081010294,
+        2548.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 33
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            28
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupNewWithName"
+      },
+      "widgets_values": [
+        "ALL_vertex",
+        true
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        3223.4229483327267,
+        3618.0955072185016
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            80
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "EyeBlinkRight",
+        "R_eye_Close",
+        1,
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 9,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        3223.4229483327267,
+        3268.0955072185016
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            12
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "EyeBlinkLeft",
+        "L_eye_Close",
+        1,
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 46,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        3972.8958692579117,
+        3621.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 46
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            48
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "R_eye_pupil_Y",
+        "R_eye_pupil",
+        1,
+        1,
+        0,
+        0.02,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 45,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        3989.8958692579117,
+        3276.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 45
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            46
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "R_eye_pupil_X",
+        "R_eye_pupil",
+        1,
+        1,
+        0.02,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        3602.8958692579117,
+        3274.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 80
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            35
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "L_eye_pupil_X",
+        "L_eye_pupil",
+        1,
+        1,
+        0.02,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 35,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        3606.8958692579117,
+        3622.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 35
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "L_eye_pupil_Y",
+        "L_eye_pupil",
+        1,
+        1,
+        0,
+        0.02,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 59,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        4361.895869257912,
+        3624.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 76
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            51
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "Head_Y",
+        "Head",
+        1,
+        1,
+        0,
+        0.030000000000000002,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        4375.895869257912,
+        3267.605756988036
+      ],
+      "size": {
+        "0": 253,
+        "1": 298
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 48
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            76
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "breath",
+        "body",
+        1.02,
+        1,
+        0,
+        0.005,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "parentId": "320b26eb-e869-4d04-9e97-076844444bef"
+    },
+    {
+      "id": 57,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        4722.895869257912,
+        3278.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 51
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            78
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "Head_X",
+        "Head",
+        1,
+        1,
+        0.030000000000000006,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 65,
+      "type": "Mesh_ModifyShapeKey",
+      "pos": [
+        4725.895869257912,
+        3637.605756988036
+      ],
+      "size": {
+        "0": 315,
+        "1": 298
+      },
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 78
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            79
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_ModifyShapeKey"
+      },
+      "widgets_values": [
+        "Head_R",
+        "Head",
+        1,
+        1,
+        0,
+        0,
+        -5,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "type": "Mesh_Delete",
+      "pos": [
+        5008.896081010294,
+        2688.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 28
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            29
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_Delete"
+      },
+      "widgets_values": [
+        "ONLY_FACE"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "Mesh_SelectAll",
+      "pos": [
+        5008.896081010294,
+        2428.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            31
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_SelectAll"
+      },
+      "widgets_values": [
+        "DESELECT"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "Mesh_JoinMesh",
+      "pos": [
+        5388.896081010294,
+        2998.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 102
+      },
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 29
+        },
+        {
+          "name": "BPY_OBJ2",
+          "type": "BPY_OBJ",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            7
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_JoinMesh"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 26,
+      "type": "Mesh_PrimitivePlaneAdd",
+      "pos": [
+        5008.896081010294,
+        2978.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 218
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "location",
+          "type": "B_VECTOR3",
+          "link": null
+        },
+        {
+          "name": "rotation",
+          "type": "B_VECTOR3",
+          "link": null
+        },
+        {
+          "name": "scale",
+          "type": "B_VECTOR3",
+          "link": 26,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            27
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_PrimitivePlaneAdd"
+      },
+      "widgets_values": [
+        1053573286943285,
+        "randomize",
+        2,
+        true,
+        false,
+        "WORLD"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "Mesh_Delete",
+      "pos": [
+        5008.896081010294,
+        3038.051832103357
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            30
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_Delete"
+      },
+      "widgets_values": [
+        "ONLY_FACE"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "B_VECTOR3",
+      "pos": [
+        5008.896081010294,
+        2928.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "B_VECTOR3",
+          "type": "B_VECTOR3",
+          "links": [
+            26
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "B_VECTOR3"
+      },
+      "widgets_values": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "id": 8,
+      "type": "Object_PlaneTextureUnwrap",
+      "pos": [
+        5398.896081010294,
+        2548.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 102
+      },
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 9
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 84
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            11
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_PlaneTextureUnwrap"
+      },
+      "widgets_values": [
+        2,
+        "Texture"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "Object_CreateMeshLayer",
+      "pos": [
+        1130,
+        3670
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 61
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            39
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            36
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_CreateMeshLayer"
+      },
+      "widgets_values": [
+        true,
+        0.7,
+        "R_eye_pupil",
+        1,
+        1,
+        0,
+        0,
+        642981726433802,
+        "randomize"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "PreviewImage",
+      "pos": [
+        1520,
+        3690
+      ],
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 36
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 41,
+      "type": "B_ENUM",
+      "pos": [
+        1790,
+        3800
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "B_ENUM",
+          "type": "B_ENUM",
+          "links": [
+            41
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "B_ENUM"
+      },
+      "widgets_values": [
+        "Right_Eye"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "B_ENUM",
+      "pos": [
+        2160,
+        3800
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "B_ENUM",
+          "type": "B_ENUM",
+          "links": [
+            43
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "B_ENUM"
+      },
+      "widgets_values": [
+        "R_eye_pupil"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "Object_VertexGroupSetActive",
+      "pos": [
+        2160,
+        3710
+      ],
+      "size": {
+        "0": 252,
+        "1": 46
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 42
+        },
+        {
+          "name": "group",
+          "type": "B_ENUM",
+          "link": 43,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            37
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupSetActive"
+      }
+    },
+    {
+      "id": 40,
+      "type": "Object_VertexGroupSetActive",
+      "pos": [
+        1790,
+        3700
+      ],
+      "size": {
+        "0": 252,
+        "1": 46
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 40
+        },
+        {
+          "name": "group",
+          "type": "B_ENUM",
+          "link": 41,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            42
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupSetActive"
+      }
+    },
+    {
+      "id": 44,
+      "type": "Object_VertexGroupSelect",
+      "pos": [
+        1790,
+        3620
+      ],
+      "size": {
+        "0": 218.39999389648438,
+        "1": 26
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            40
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupSelect"
+      }
+    },
+    {
+      "id": 38,
+      "type": "Object_VertexGroupNewWithName",
+      "pos": [
+        2510,
+        3710
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 37
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            67
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupNewWithName"
+      },
+      "widgets_values": [
+        "R_eye_Close",
+        true
+      ]
+    },
+    {
+      "id": 39,
+      "type": "Mesh_JoinMesh",
+      "pos": [
+        1510,
+        3350
+      ],
+      "size": {
+        "0": 210,
+        "1": 102
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 38
+        },
+        {
+          "name": "BPY_OBJ2",
+          "type": "BPY_OBJ",
+          "link": 39
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            44
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_JoinMesh"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Object_CreateMeshLayer",
+      "pos": [
+        1120,
+        3290
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 60
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            38
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_CreateMeshLayer"
+      },
+      "widgets_values": [
+        true,
+        0.7,
+        "Right_Eye",
+        1.2,
+        1.35,
+        1.1,
+        1.1,
+        517074875150286,
+        "randomize"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 18,
+      "type": "Object_CreateMeshLayer",
+      "pos": [
+        1100,
+        2830
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 59
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            17
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_CreateMeshLayer"
+      },
+      "widgets_values": [
+        true,
+        0.7,
+        "L_eye_pupil",
+        1,
+        1,
+        0,
+        0,
+        288923745030518,
+        "randomize"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "PreviewImage",
+      "pos": [
+        1470,
+        2830
+      ],
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 17
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 20,
+      "type": "Mesh_JoinMesh",
+      "pos": [
+        1480,
+        2490
+      ],
+      "size": {
+        "0": 210,
+        "1": 102
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 19
+        },
+        {
+          "name": "BPY_OBJ2",
+          "type": "BPY_OBJ",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            25
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_JoinMesh"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 25,
+      "type": "Object_VertexGroupSelect",
+      "pos": [
+        1770,
+        2740
+      ],
+      "size": {
+        "0": 218.39999389648438,
+        "1": 26
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            21
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupSelect"
+      }
+    },
+    {
+      "id": 22,
+      "type": "B_ENUM",
+      "pos": [
+        1790,
+        2950
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "B_ENUM",
+          "type": "B_ENUM",
+          "links": [
+            22
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "B_ENUM"
+      },
+      "widgets_values": [
+        "Left_Eye"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "Object_VertexGroupSetActive",
+      "pos": [
+        2140,
+        2830
+      ],
+      "size": {
+        "0": 252,
+        "1": 46
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 23
+        },
+        {
+          "name": "group",
+          "type": "B_ENUM",
+          "link": 24,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            18
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupSetActive"
+      }
+    },
+    {
+      "id": 24,
+      "type": "B_ENUM",
+      "pos": [
+        2140,
+        2940
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "B_ENUM",
+          "type": "B_ENUM",
+          "links": [
+            24
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "B_ENUM"
+      },
+      "widgets_values": [
+        "L_eye_pupil"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Object_VertexGroupNewWithName",
+      "pos": [
+        2490,
+        2830
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            66
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupNewWithName"
+      },
+      "widgets_values": [
+        "L_eye_Close",
+        true
+      ]
+    },
+    {
+      "id": 21,
+      "type": "Object_VertexGroupSetActive",
+      "pos": [
+        1780,
+        2830
+      ],
+      "size": {
+        "0": 252,
+        "1": 46
+      },
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 21
+        },
+        {
+          "name": "group",
+          "type": "B_ENUM",
+          "link": 22,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            23
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupSetActive"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Object_CreateMeshLayer",
+      "pos": [
+        1080,
+        2480
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 58
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            19
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_CreateMeshLayer"
+      },
+      "widgets_values": [
+        true,
+        0.7,
+        "Left_Eye",
+        1.2,
+        1.35,
+        1.1,
+        1.1,
+        716765830499219,
+        "randomize"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 55,
+      "type": "Mesh_JoinMesh",
+      "pos": [
+        3159.2022120337374,
+        2768.906264516887
+      ],
+      "size": {
+        "0": 210,
+        "1": 142
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 65
+        },
+        {
+          "name": "BPY_OBJ2",
+          "type": "BPY_OBJ",
+          "link": 66
+        },
+        {
+          "name": "BPY_OBJ3",
+          "type": "BPY_OBJ",
+          "link": 67
+        },
+        {
+          "name": "BPY_OBJ4",
+          "type": "BPY_OBJ",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            64
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_JoinMesh"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 58,
+      "type": "Mesh_SelectAll",
+      "pos": [
+        3416.2022120337374,
+        2765.906264516887
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 64
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            63
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_SelectAll"
+      },
+      "widgets_values": [
+        "SELECT"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "Object_VertexGroupNewWithName",
+      "pos": [
+        3415.2022120337374,
+        2881.906264516887
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 63
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            70
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_VertexGroupNewWithName"
+      },
+      "widgets_values": [
+        "Head",
+        true
+      ]
+    },
+    {
+      "id": 48,
+      "type": "Object_CreateMeshLayer",
+      "pos": [
+        4032.130658233349,
+        2438.496386349781
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 71
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            72
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            47
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_CreateMeshLayer"
+      },
+      "widgets_values": [
+        true,
+        0.7,
+        "body",
+        1,
+        1,
+        0,
+        0,
+        541074350005713,
+        "randomize"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "PreviewImage",
+      "pos": [
+        4427.1306582333555,
+        2452.496386349781
+      ],
+      "size": {
+        "0": 210,
+        "1": 246
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 47
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Mesh_JoinMesh",
+      "pos": [
+        4443.1306582333555,
+        2819.496386349781
+      ],
+      "size": {
+        "0": 210,
+        "1": 102
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 70
+        },
+        {
+          "name": "BPY_OBJ2",
+          "type": "BPY_OBJ",
+          "link": 72
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            32
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Mesh_JoinMesh"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Object_MatchTextureAspectRatio",
+      "pos": [
+        5415.896081010294,
+        2413.051832103357
+      ],
+      "size": {
+        "0": 315,
+        "1": 78
+      },
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 7
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 83
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            9
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_MatchTextureAspectRatio"
+      },
+      "widgets_values": [
+        0.001
+      ]
+    },
+    {
+      "id": 1,
+      "type": "LoadImage",
+      "pos": [
+        64,
+        2388
+      ],
+      "size": {
+        "0": 315,
+        "1": 314
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            57,
+            82
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "Untitled (7) (2).png",
+        "image"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "Reroute",
+      "pos": [
+        456,
+        2391
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 82
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            83,
+            84
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 50,
+      "type": "AvatarMainOutput",
+      "pos": [
+        5255,
+        3554
+      ],
+      "size": {
+        "0": 315,
+        "1": 218
+      },
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "link": 79
+        },
+        {
+          "name": "BPY_OBJS",
+          "type": "BPY_OBJS",
+          "link": null,
+          "slot_index": 1
+        },
+        {
+          "name": "SHAPE_FLOW",
+          "type": "SHAPE_FLOW",
+          "link": 75
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AvatarMainOutput"
+      },
+      "widgets_values": [
+        false,
+        false,
+        "/mnt/c/Program Files/Blender Foundation/Blender 3.6/blender-launcher.exe",
+        "out",
+        "AVA",
+        "Overwrite"
+      ]
+    },
+    {
+      "id": 64,
+      "type": "SAM MultiLayer",
+      "pos": [
+        450,
+        2470
+      ],
+      "size": {
+        "0": 210,
+        "1": 250
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 57
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SAM_PROMPT",
+          "type": "SAM_PROMPT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "L_eye",
+          "type": "IMAGE",
+          "links": [
+            58
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "R_eye",
+          "type": "IMAGE",
+          "links": [
+            60
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "L_iris",
+          "type": "IMAGE",
+          "links": [
+            59
+          ],
+          "slot_index": 3
+        },
+        {
+          "name": "R_iris",
+          "type": "IMAGE",
+          "links": [
+            61
+          ],
+          "slot_index": 4
+        },
+        {
+          "name": "face",
+          "type": "IMAGE",
+          "links": [
+            62
+          ],
+          "slot_index": 5
+        },
+        {
+          "name": "breath",
+          "type": "IMAGE",
+          "links": [
+            71
+          ],
+          "slot_index": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SAM MultiLayer"
+      },
+      "widgets_values": [
+        "sam_vit_h_4b8939.pth",
+        "Untitled (7) (2).png",
+        "{\"L_eye\":[{\"x\":634,\"y\":325,\"label\":1}],\"R_eye\":[{\"x\":391,\"y\":315,\"label\":1}],\"L_iris\":[{\"x\":596,\"y\":317,\"label\":1},{\"x\":631,\"y\":328,\"label\":0}],\"R_iris\":[{\"x\":434,\"y\":314,\"label\":1},{\"x\":466,\"y\":325,\"label\":0},{\"x\":420,\"y\":309,\"label\":1}],\"face\":[{\"x\":534,\"y\":93,\"label\":1},{\"x\":515,\"y\":266,\"label\":1},{\"x\":521,\"y\":573,\"label\":1},{\"x\":367,\"y\":416,\"label\":1},{\"x\":331,\"y\":333,\"label\":1},{\"x\":707,\"y\":350,\"label\":1},{\"x\":633,\"y\":482,\"label\":1},{\"x\":513,\"y\":640,\"label\":0},{\"x\":612,\"y\":584,\"label\":0},{\"x\":406,\"y\":580,\"label\":0},{\"x\":388,\"y\":538,\"label\":0},{\"x\":347,\"y\":231,\"label\":1}],\"breath\":[{\"x\":509,\"y\":741,\"label\":1},{\"x\":485,\"y\":683,\"label\":0},{\"x\":514,\"y\":853,\"label\":1},{\"x\":540,\"y\":750,\"label\":1},{\"x\":509,\"y\":763,\"label\":1},{\"x\":524,\"y\":716,\"label\":1},{\"x\":461,\"y\":729,\"label\":1}]}",
+        ""
+      ]
+    },
+    {
+      "id": 54,
+      "type": "Object_CreateMeshLayer",
+      "pos": [
+        3181,
+        2437
+      ],
+      "size": {
+        "0": 315,
+        "1": 270
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 62
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BPY_OBJ",
+          "type": "BPY_OBJ",
+          "links": [
+            65
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Object_CreateMeshLayer"
+      },
+      "widgets_values": [
+        true,
+        0.7,
+        "face",
+        1,
+        1,
+        0,
+        0,
+        933561502295676,
+        "randomize"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "CreateShapeFlow",
+      "pos": [
+        5250,
+        3400
+      ],
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "SHAPE_FLOW",
+          "type": "SHAPE_FLOW",
+          "links": [
+            75
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CreateShapeFlow"
+      },
+      "widgets_values": [
+        "{\"nodes\":[{\"width\":210,\"height\":549,\"id\":\"layerOutputNode_yIEEm\",\"data\":{\"label\":\"layerOutputNode_yIEEm\",\"targetLayer\":\"NewObject0003\",\"variableName\":\"layerOutputNode_yIEEm\",\"defaultValues\":{\"model_blendshapes_pos_x\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_pos_y\":{\"type\":\"number\",\"value\":0.0001},\"model_blendshapes_pos_z\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_rot_x\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_rot_y\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_rot_z\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_Head_X\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_Head_Y\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_MouthY\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_breath\":{\"type\":\"number\",\"value\":1.5299999999999998},\"model_blendshapes_boobs_L\":{\"type\":\"number\",\"value\":0.010000000000000009},\"model_blendshapes_opacity\":{\"value\":1,\"type\":\"number\"},\"model_blendshapes_scale_x\":{\"type\":\"number\",\"value\":1},\"model_blendshapes_scale_y\":{\"type\":\"number\",\"value\":1},\"model_blendshapes_scale_z\":{\"type\":\"number\",\"value\":1},\"model_blendshapes_visible\":{\"type\":\"number\",\"value\":1},\"model_blendshapes_boobs_up\":{\"type\":\"number\",\"value\":0.8700000000000001},\"model_blendshapes_boobs_up2\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_MouthClose\":{\"type\":\"number\",\"value\":0.11},\"model_blendshapes_Mouth_Form\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_Mouth_Puck\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_Mouth_wide\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_Mouth_Close\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_EyeBlinkLeft\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_EyeBlinkRight\":{\"type\":\"number\",\"value\":-0.03},\"model_blendshapes_L_eye_pupil_X\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_L_eye_pupil_Y\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_R_eye_pupil_X\":{\"type\":\"number\",\"value\":0},\"model_blendshapes_R_eye_pupil_Y\":{\"type\":\"number\",\"value\":0}}},\"type\":\"layerOutputNode\",\"dragging\":false,\"position\":{\"x\":1745.8721067396252,\"y\":140.46253977914944},\"selected\":false,\"positionAbsolute\":{\"x\":1745.8721067396252,\"y\":140.46253977914944}},{\"width\":192,\"height\":80,\"id\":\"subGraphNode_QqQGC\",\"data\":{\"label\":\"Eyesblink\",\"subGraph\":{\"edges\":[{\"id\":\"reactflow__edge-valueNode_Biisyvalue-operatorNode_nKzQkoperand_2\",\"source\":\"valueNode_Biisy\",\"target\":\"operatorNode_nKzQk\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-valueNode_lYzmYvalue-operatorNode_neoYvoperand_1\",\"source\":\"valueNode_lYzmY\",\"target\":\"operatorNode_neoYv\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-mathNode_UuJygoutput-operatorNode_neoYvoperand_2\",\"source\":\"mathNode_UuJyg\",\"target\":\"operatorNode_neoYv\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-timeNode_cLYzetime-operatorNode_nKzQkoperand_1\",\"source\":\"timeNode_cLYze\",\"target\":\"operatorNode_nKzQk\",\"selected\":false,\"sourceHandle\":\"time\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-timeNode_jYYGztime-operatorNode_hddluoperand_2\",\"source\":\"timeNode_jYYGz\",\"target\":\"operatorNode_hddlu\",\"selected\":false,\"sourceHandle\":\"time\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-valueNode_gSXlEvalue-operatorNode_hddluoperand_1\",\"source\":\"valueNode_gSXlE\",\"target\":\"operatorNode_hddlu\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-valueNode_rpCCevalue-mathNode_UuJygmath_fn_input_1\",\"source\":\"valueNode_rpCCe\",\"target\":\"mathNode_UuJyg\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"math_fn_input_1\"},{\"id\":\"reactflow__edge-easingNode_bqAhhy-mathNode_UuJygmath_fn_input_0\",\"source\":\"easingNode_bqAhh\",\"target\":\"mathNode_UuJyg\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"math_fn_input_0\"},{\"id\":\"reactflow__edge-valueNode_ARGrYvalue-operatorNode_edAktoperand_2\",\"source\":\"valueNode_ARGrY\",\"target\":\"operatorNode_edAkt\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-operatorNode_edAktoutput-conditionNode_NuykUcondition_a\",\"source\":\"operatorNode_edAkt\",\"target\":\"conditionNode_NuykU\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"condition_a\"},{\"id\":\"reactflow__edge-valueNode_cPQRAvalue-conditionNode_NuykUcondition_b\",\"source\":\"valueNode_cPQRA\",\"target\":\"conditionNode_NuykU\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"condition_b\"},{\"id\":\"reactflow__edge-operatorNode_edAktoutput-conditionNode_NuykUcondition_true\",\"source\":\"operatorNode_edAkt\",\"target\":\"conditionNode_NuykU\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"condition_true\"},{\"id\":\"reactflow__edge-valueNode_cPQRAvalue-conditionNode_NuykUcondition_false\",\"source\":\"valueNode_cPQRA\",\"target\":\"conditionNode_NuykU\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"condition_false\"},{\"id\":\"reactflow__edge-conditionNode_NuykUoutput-easingNode_bqAhhx\",\"source\":\"conditionNode_NuykU\",\"target\":\"easingNode_bqAhh\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-operatorNode_hddluoutput-operatorNode_edAktoperand_1\",\"source\":\"operatorNode_hddlu\",\"target\":\"operatorNode_edAkt\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-operatorNode_neoYvoutput-easingNode_AIbfmx\",\"source\":\"operatorNode_neoYv\",\"target\":\"easingNode_AIbfm\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-easingNode_AIbfmy-visualizationNode_sYXzGvisualization_input\",\"source\":\"easingNode_AIbfm\",\"target\":\"visualizationNode_sYXzG\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-valueNode_ehGvnvalue-operatorNode_dNObCoperand_2\",\"source\":\"valueNode_ehGvn\",\"target\":\"operatorNode_dNObC\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-operatorNode_dNObCoutput-visualizationNode_NyUGzvisualization_input\",\"source\":\"operatorNode_dNObC\",\"target\":\"visualizationNode_NyUGz\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-timeNode_vRvnytime-operatorNode_uiGHNoperand_1\",\"source\":\"timeNode_vRvny\",\"target\":\"operatorNode_uiGHN\",\"selected\":false,\"sourceHandle\":\"time\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-operatorNode_uiGHNoutput-operatorNode_dNObCoperand_1\",\"source\":\"operatorNode_uiGHN\",\"target\":\"operatorNode_dNObC\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-valueNode_ZlTlmvalue-operatorNode_uiGHNoperand_2\",\"source\":\"valueNode_ZlTlm\",\"target\":\"operatorNode_uiGHN\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-operatorNode_dNObCoutput-conditionNode_gNWNmcondition_a\",\"source\":\"operatorNode_dNObC\",\"target\":\"conditionNode_gNWNm\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"condition_a\"},{\"id\":\"reactflow__edge-valueNode_rpCCevalue-conditionNode_gNWNmcondition_b\",\"source\":\"valueNode_rpCCe\",\"target\":\"conditionNode_gNWNm\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"condition_b\"},{\"id\":\"reactflow__edge-easingNode_AIbfmy-conditionNode_gNWNmcondition_false\",\"source\":\"easingNode_AIbfm\",\"target\":\"conditionNode_gNWNm\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"condition_false\"},{\"id\":\"reactflow__edge-easingNode_nGvYSy-mathNode_TdXuGmath_fn_input_0\",\"source\":\"easingNode_nGvYS\",\"target\":\"mathNode_TdXuG\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"math_fn_input_0\"},{\"id\":\"reactflow__edge-valueNode_UbOMovalue-mathNode_TdXuGmath_fn_input_1\",\"source\":\"valueNode_UbOMo\",\"target\":\"mathNode_TdXuG\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"math_fn_input_1\"},{\"id\":\"reactflow__edge-operatorNode_nKzQkoutput-operatorNode_rEaHgoperand_1\",\"source\":\"operatorNode_nKzQk\",\"target\":\"operatorNode_rEaHg\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-valueNode_FSQaPvalue-operatorNode_rEaHgoperand_2\",\"source\":\"valueNode_FSQaP\",\"target\":\"operatorNode_rEaHg\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-operatorNode_rEaHgoutput-conditionNode_pHuSncondition_a\",\"source\":\"operatorNode_rEaHg\",\"target\":\"conditionNode_pHuSn\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"condition_a\"},{\"id\":\"reactflow__edge-valueNode_TpLshvalue-conditionNode_pHuSncondition_b\",\"source\":\"valueNode_TpLsh\",\"target\":\"conditionNode_pHuSn\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"condition_b\"},{\"id\":\"reactflow__edge-operatorNode_rEaHgoutput-conditionNode_pHuSncondition_true\",\"source\":\"operatorNode_rEaHg\",\"target\":\"conditionNode_pHuSn\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"condition_true\"},{\"id\":\"reactflow__edge-valueNode_TpLshvalue-conditionNode_pHuSncondition_false\",\"source\":\"valueNode_TpLsh\",\"target\":\"conditionNode_pHuSn\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"condition_false\"},{\"id\":\"reactflow__edge-conditionNode_pHuSnoutput-easingNode_nGvYSx\",\"source\":\"conditionNode_pHuSn\",\"target\":\"easingNode_nGvYS\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-valueNode_TpLshvalue-operatorNode_oeTEroperand_1\",\"source\":\"valueNode_TpLsh\",\"target\":\"operatorNode_oeTEr\",\"selected\":false,\"sourceHandle\":\"value\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-mathNode_TdXuGoutput-operatorNode_oeTEroperand_2\",\"source\":\"mathNode_TdXuG\",\"target\":\"operatorNode_oeTEr\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"operand_2\"},{\"id\":\"reactflow__edge-operatorNode_oeTEroutput-visualizationNode_WMyHjvisualization_input\",\"source\":\"operatorNode_oeTEr\",\"target\":\"visualizationNode_WMyHj\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-operatorNode_oeTEroutput-conditionNode_gNWNmcondition_true\",\"source\":\"operatorNode_oeTEr\",\"target\":\"conditionNode_gNWNm\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"condition_true\"},{\"id\":\"reactflow__edge-conditionNode_gNWNmoutput-easingNode_bdjNfx\",\"source\":\"conditionNode_gNWNm\",\"target\":\"easingNode_bdjNf\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-easingNode_bdjNfy-visualizationNode_OAILXvisualization_input\",\"source\":\"easingNode_bdjNf\",\"target\":\"visualizationNode_OAILX\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-operatorNode_AHeguoutput-visualizationNode_LYPOZvisualization_input\",\"source\":\"operatorNode_AHegu\",\"target\":\"visualizationNode_LYPOZ\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-easingNode_bdjNfy-subGraphOutputNode_dHexz6eq\",\"source\":\"easingNode_bdjNf\",\"target\":\"subGraphOutputNode_dHexz\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"6eq\"},{\"id\":\"reactflow__edge-operatorNode_AHeguoutput-subGraphOutputNode_dHexziiw\",\"source\":\"operatorNode_AHegu\",\"target\":\"subGraphOutputNode_dHexz\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"iiw\"},{\"id\":\"reactflow__edge-valueNode_lZHtuvalue-operatorNode_AHeguoperand_1\",\"source\":\"valueNode_lZHtu\",\"target\":\"operatorNode_AHegu\",\"sourceHandle\":\"value\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-easingNode_bdjNfy-operatorNode_AHeguoperand_2\",\"source\":\"easingNode_bdjNf\",\"target\":\"operatorNode_AHegu\",\"sourceHandle\":\"y\",\"targetHandle\":\"operand_2\"}],\"nodes\":[{\"id\":\"timeNode_jYYGz\",\"data\":{\"time\":0,\"type\":\"currentTime\",\"label\":\"timeNode_jYYGz\",\"deltaTime\":0.03110000000148716,\"currentTime\":51.64380000000447,\"variableName\":\"timeNode_jYYGz\"},\"type\":\"timeNode\",\"width\":166,\"height\":94,\"dragging\":false,\"position\":{\"x\":-2215.096903204777,\"y\":-1757.9143202810344},\"selected\":false,\"positionAbsolute\":{\"x\":-2215.096903204777,\"y\":-1757.9143202810344}},{\"id\":\"easingNode_bqAhh\",\"data\":{\"label\":\"easingNode_bqAhh\",\"easingFn\":\"easeInSine\",\"variableName\":\"easingNode_bqAhh\"},\"type\":\"easingNode\",\"width\":172,\"height\":74,\"dragging\":false,\"position\":{\"x\":-1295.3233883860842,\"y\":-1825.5748953193274},\"selected\":false,\"positionAbsolute\":{\"x\":-1295.3233883860842,\"y\":-1825.5748953193274}},{\"id\":\"mathNode_UuJyg\",\"data\":{\"label\":\"mathNode_UuJyg\",\"fnName\":\"min\",\"variableName\":\"mathNode_UuJyg\",\"defaultValues\":{\"math_fn_input_0\":{\"type\":\"number\",\"value\":0.9999999999999999},\"math_fn_input_1\":{\"type\":\"number\",\"value\":1}}},\"type\":\"mathNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1289.7304819094352,\"y\":-1738.7641272834762},\"selected\":false,\"positionAbsolute\":{\"x\":-1289.7304819094352,\"y\":-1738.7641272834762}},{\"id\":\"valueNode_rpCCe\",\"data\":{\"max\":1,\"label\":\"valueNode_rpCCe\",\"value\":1,\"variableName\":\"valueNode_rpCCe\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1287.8128511983723,\"y\":-1582.1891169684466},\"selected\":false,\"positionAbsolute\":{\"x\":-1287.8128511983723,\"y\":-1582.1891169684466}},{\"id\":\"operatorNode_nKzQk\",\"data\":{\"label\":\"operatorNode_nKzQk\",\"operator\":2,\"variableName\":\"operatorNode_nKzQk\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":122.37870000004769},\"operand_2\":{\"type\":\"number\",\"value\":4.6}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1937.9121583954425,\"y\":-1408.4804832313278},\"selected\":false,\"positionAbsolute\":{\"x\":-1937.9121583954425,\"y\":-1408.4804832313278}},{\"id\":\"valueNode_Biisy\",\"data\":{\"max\":100,\"label\":\"valueNode_Biisy\",\"value\":4.6,\"variableName\":\"valueNode_Biisy\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1939.1591108662187,\"y\":-1252.0249101176432},\"selected\":false,\"positionAbsolute\":{\"x\":-1939.1591108662187,\"y\":-1252.0249101176432}},{\"id\":\"valueNode_gSXlE\",\"data\":{\"max\":10,\"label\":\"valueNode_gSXlE\",\"value\":4.1,\"variableName\":\"valueNode_gSXlE\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1940.3741428205074,\"y\":-1662.1814398609297},\"selected\":false,\"positionAbsolute\":{\"x\":-1940.3741428205074,\"y\":-1662.1814398609297}},{\"id\":\"operatorNode_hddlu\",\"data\":{\"label\":\"operatorNode_hddlu\",\"operator\":2,\"variableName\":\"operatorNode_hddlu\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":4.1},\"operand_2\":{\"type\":\"number\",\"value\":122.37870000004769}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1944.385642812803,\"y\":-1820.1207764832534},\"selected\":false,\"positionAbsolute\":{\"x\":-1944.385642812803,\"y\":-1820.1207764832534}},{\"id\":\"valueNode_lYzmY\",\"data\":{\"label\":\"valueNode_lYzmY\",\"value\":1,\"variableName\":\"valueNode_lYzmY\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1060.5392866871234,\"y\":-1670.701160820329},\"selected\":false,\"positionAbsolute\":{\"x\":-1060.5392866871234,\"y\":-1670.701160820329}},{\"id\":\"operatorNode_neoYv\",\"data\":{\"label\":\"operatorNode_neoYv\",\"operator\":1,\"variableName\":\"operatorNode_neoYv\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":1},\"operand_2\":{\"type\":\"number\",\"value\":0.9999999999999999}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1062.8882911938776,\"y\":-1830.0477144350077},\"selected\":false,\"positionAbsolute\":{\"x\":-1062.8882911938776,\"y\":-1830.0477144350077}},{\"id\":\"valueNode_UbOMo\",\"data\":{\"label\":\"valueNode_UbOMo\",\"value\":1,\"variableName\":\"valueNode_UbOMo\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1272.5160145210866,\"y\":-1158.9811251109297},\"selected\":false,\"positionAbsolute\":{\"x\":-1272.5160145210866,\"y\":-1158.9811251109297}},{\"id\":\"timeNode_cLYze\",\"data\":{\"time\":0,\"type\":\"currentTime\",\"label\":\"timeNode_cLYze\",\"deltaTime\":0.03110000000148716,\"currentTime\":51.64380000000447,\"variableName\":\"timeNode_cLYze\"},\"type\":\"timeNode\",\"width\":166,\"height\":94,\"dragging\":false,\"position\":{\"x\":-2217.5347509711646,\"y\":-1405.7132906265178},\"selected\":false,\"positionAbsolute\":{\"x\":-2217.5347509711646,\"y\":-1405.7132906265178}},{\"id\":\"easingNode_nGvYS\",\"data\":{\"label\":\"easingNode_nGvYS\",\"easingFn\":\"easeInSine\",\"variableName\":\"easingNode_nGvYS\"},\"type\":\"easingNode\",\"width\":172,\"height\":74,\"dragging\":false,\"position\":{\"x\":-1274.9898532798331,\"y\":-1403.969166021371},\"selected\":false,\"positionAbsolute\":{\"x\":-1274.9898532798331,\"y\":-1403.969166021371}},{\"id\":\"visualizationNode_WMyHj\",\"data\":{\"label\":\"visualizationNode_WMyHj\",\"variableName\":\"visualizationNode_WMyHj\"},\"type\":\"visualizationNode\",\"width\":328,\"height\":344,\"dragging\":false,\"position\":{\"x\":-605.855776191421,\"y\":-1442.4111770495097},\"selected\":false,\"positionAbsolute\":{\"x\":-605.855776191421,\"y\":-1442.4111770495097}},{\"id\":\"visualizationNode_sYXzG\",\"data\":{\"label\":\"visualizationNode_sYXzG\",\"variableName\":\"visualizationNode_sYXzG\"},\"type\":\"visualizationNode\",\"width\":328,\"height\":344,\"dragging\":false,\"position\":{\"x\":-611.0656825715232,\"y\":-1837.0838443088842},\"selected\":false,\"positionAbsolute\":{\"x\":-611.0656825715232,\"y\":-1837.0838443088842}},{\"id\":\"operatorNode_edAkt\",\"data\":{\"label\":\"operatorNode_edAkt\",\"operator\":4,\"variableName\":\"operatorNode_edAkt\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":501.75267000019545},\"operand_2\":{\"type\":\"number\",\"value\":10}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1718.9083871192793,\"y\":-1819.4503367903333},\"selected\":false,\"positionAbsolute\":{\"x\":-1718.9083871192793,\"y\":-1819.4503367903333}},{\"id\":\"valueNode_ARGrY\",\"data\":{\"max\":100,\"label\":\"valueNode_ARGrY\",\"value\":10,\"variableName\":\"valueNode_ARGrY\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1720.4312136920219,\"y\":-1659.4301219531367},\"selected\":false,\"positionAbsolute\":{\"x\":-1720.4312136920219,\"y\":-1659.4301219531367}},{\"id\":\"conditionNode_NuykU\",\"data\":{\"label\":\"conditionNode_NuykU\",\"operator\":0,\"variableName\":\"conditionNode_NuykU\",\"defaultValues\":{\"condition_a\":{\"type\":\"number\",\"value\":1.752670000195451},\"condition_b\":{\"type\":\"number\",\"value\":1},\"condition_true\":{\"type\":\"number\",\"value\":1.752670000195451},\"condition_false\":{\"type\":\"number\",\"value\":1}}},\"type\":\"conditionNode\",\"width\":160,\"height\":200,\"dragging\":false,\"position\":{\"x\":-1504.272471371014,\"y\":-1817.6278823062823},\"selected\":false,\"positionAbsolute\":{\"x\":-1504.272471371014,\"y\":-1817.6278823062823}},{\"id\":\"valueNode_cPQRA\",\"data\":{\"label\":\"valueNode_cPQRA\",\"value\":1,\"variableName\":\"valueNode_cPQRA\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1504.595519266336,\"y\":-1608.716856424463},\"selected\":false,\"positionAbsolute\":{\"x\":-1504.595519266336,\"y\":-1608.716856424463}},{\"id\":\"easingNode_AIbfm\",\"data\":{\"label\":\"easingNode_AIbfm\",\"easingFn\":\"easeInOutSine\",\"variableName\":\"easingNode_AIbfm\"},\"type\":\"easingNode\",\"width\":172,\"height\":74,\"dragging\":false,\"position\":{\"x\":-865.9016474628179,\"y\":-1834.2138969165076},\"selected\":false,\"positionAbsolute\":{\"x\":-865.9016474628179,\"y\":-1834.2138969165076}},{\"id\":\"timeNode_vRvny\",\"data\":{\"time\":0,\"type\":\"currentTime\",\"label\":\"timeNode_vRvny\",\"deltaTime\":0.03110000000148716,\"currentTime\":51.64380000000447,\"variableName\":\"timeNode_vRvny\"},\"type\":\"timeNode\",\"width\":166,\"height\":94,\"dragging\":false,\"position\":{\"x\":-2217.6080699416543,\"y\":-1002.7218611207699},\"selected\":false,\"positionAbsolute\":{\"x\":-2217.6080699416543,\"y\":-1002.7218611207699}},{\"id\":\"conditionNode_gNWNm\",\"data\":{\"label\":\"conditionNode_gNWNm\",\"operator\":0,\"variableName\":\"conditionNode_gNWNm\",\"defaultValues\":{\"condition_a\":{\"type\":\"number\",\"value\":3.478700000047697},\"condition_b\":{\"type\":\"number\",\"value\":1},\"condition_true\":{\"type\":\"number\",\"value\":1.1102230246251565e-16},\"condition_false\":{\"type\":\"number\",\"value\":0}}},\"type\":\"conditionNode\",\"width\":160,\"height\":200,\"dragging\":false,\"position\":{\"x\":-192.70309911689205,\"y\":-1401.4464277727818},\"selected\":false,\"positionAbsolute\":{\"x\":-192.70309911689205,\"y\":-1401.4464277727818}},{\"id\":\"operatorNode_dNObC\",\"data\":{\"label\":\"operatorNode_dNObC\",\"operator\":4,\"variableName\":\"operatorNode_dNObC\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":122.37870000004769},\"operand_2\":{\"type\":\"number\",\"value\":4.1}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1710.8678042129973,\"y\":-1009.1078519485195},\"selected\":false,\"positionAbsolute\":{\"x\":-1710.8678042129973,\"y\":-1009.1078519485195}},{\"id\":\"valueNode_ehGvn\",\"data\":{\"max\":10,\"label\":\"valueNode_ehGvn\",\"value\":4.1,\"variableName\":\"valueNode_ehGvn\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1710.7958033620419,\"y\":-845.0576689681639},\"selected\":false,\"positionAbsolute\":{\"x\":-1710.7958033620419,\"y\":-845.0576689681639}},{\"id\":\"visualizationNode_NyUGz\",\"data\":{\"label\":\"visualizationNode_NyUGz\",\"variableName\":\"visualizationNode_NyUGz\"},\"type\":\"visualizationNode\",\"width\":328,\"height\":344,\"dragging\":false,\"position\":{\"x\":-606.0319097782103,\"y\":-1057.9343104728957},\"selected\":false,\"positionAbsolute\":{\"x\":-606.0319097782103,\"y\":-1057.9343104728957}},{\"id\":\"operatorNode_uiGHN\",\"data\":{\"label\":\"operatorNode_uiGHN\",\"operator\":2,\"variableName\":\"operatorNode_uiGHN\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":122.37870000004769},\"operand_2\":{\"type\":\"number\",\"value\":1}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1947.6840183315596,\"y\":-1005.362637191741},\"selected\":false,\"positionAbsolute\":{\"x\":-1947.6840183315596,\"y\":-1005.362637191741}},{\"id\":\"valueNode_ZlTlm\",\"data\":{\"max\":10,\"label\":\"valueNode_ZlTlm\",\"value\":1,\"variableName\":\"valueNode_ZlTlm\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1947.9029283354498,\"y\":-843.744015951055},\"selected\":false,\"positionAbsolute\":{\"x\":-1947.9029283354498,\"y\":-843.744015951055}},{\"id\":\"mathNode_TdXuG\",\"data\":{\"label\":\"mathNode_TdXuG\",\"fnName\":\"min\",\"variableName\":\"mathNode_TdXuG\",\"defaultValues\":{\"math_fn_input_0\":{\"type\":\"number\",\"value\":0.9999999999999999},\"math_fn_input_1\":{\"type\":\"number\",\"value\":1}}},\"type\":\"mathNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1271.955443759553,\"y\":-1315.0188069857757},\"selected\":false,\"positionAbsolute\":{\"x\":-1271.955443759553,\"y\":-1315.0188069857757}},{\"id\":\"valueNode_TpLsh\",\"data\":{\"label\":\"valueNode_TpLsh\",\"value\":1,\"variableName\":\"valueNode_TpLsh\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1488.1127873772532,\"y\":-1199.3839543177546},\"selected\":false,\"positionAbsolute\":{\"x\":-1488.1127873772532,\"y\":-1199.3839543177546}},{\"id\":\"operatorNode_rEaHg\",\"data\":{\"label\":\"operatorNode_rEaHg\",\"operator\":4,\"variableName\":\"operatorNode_rEaHg\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":562.9420200002193},\"operand_2\":{\"type\":\"number\",\"value\":10}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1711.6761420334294,\"y\":-1407.1333669857756},\"selected\":false,\"positionAbsolute\":{\"x\":-1711.6761420334294,\"y\":-1407.1333669857756}},{\"id\":\"valueNode_FSQaP\",\"data\":{\"max\":10,\"label\":\"valueNode_FSQaP\",\"value\":10,\"variableName\":\"valueNode_FSQaP\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-1717.5753139268859,\"y\":-1247.3508905521694},\"selected\":false,\"positionAbsolute\":{\"x\":-1717.5753139268859,\"y\":-1247.3508905521694}},{\"id\":\"conditionNode_pHuSn\",\"data\":{\"label\":\"conditionNode_pHuSn\",\"operator\":0,\"variableName\":\"conditionNode_pHuSn\",\"defaultValues\":{\"condition_a\":{\"type\":\"number\",\"value\":2.9420200002192587},\"condition_b\":{\"type\":\"number\",\"value\":1},\"condition_true\":{\"type\":\"number\",\"value\":2.9420200002192587},\"condition_false\":{\"type\":\"number\",\"value\":1}}},\"type\":\"conditionNode\",\"width\":160,\"height\":200,\"dragging\":false,\"position\":{\"x\":-1488.6353563647306,\"y\":-1408.1327295052558},\"selected\":false,\"positionAbsolute\":{\"x\":-1488.6353563647306,\"y\":-1408.1327295052558}},{\"id\":\"operatorNode_oeTEr\",\"data\":{\"label\":\"operatorNode_oeTEr\",\"operator\":1,\"variableName\":\"operatorNode_oeTEr\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":1},\"operand_2\":{\"type\":\"number\",\"value\":0.9999999999999999}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":-1044.8427898208652,\"y\":-1406.4732611045122},\"selected\":false,\"positionAbsolute\":{\"x\":-1044.8427898208652,\"y\":-1406.4732611045122}},{\"id\":\"easingNode_bdjNf\",\"data\":{\"label\":\"easingNode_bdjNf\",\"easingFn\":\"easeInSine\",\"variableName\":\"easingNode_bdjNf\"},\"type\":\"easingNode\",\"width\":172,\"height\":74,\"dragging\":false,\"position\":{\"x\":68.31109414776816,\"y\":-1390.4412518380532},\"selected\":false,\"positionAbsolute\":{\"x\":68.31109414776816,\"y\":-1390.4412518380532}},{\"id\":\"visualizationNode_OAILX\",\"data\":{\"label\":\"visualizationNode_OAILX\",\"variableName\":\"visualizationNode_OAILX\"},\"type\":\"visualizationNode\",\"width\":328,\"height\":344,\"dragging\":false,\"position\":{\"x\":661.6184822328263,\"y\":-1764.470845107487},\"selected\":false,\"positionAbsolute\":{\"x\":661.6184822328263,\"y\":-1764.470845107487}},{\"id\":\"operatorNode_AHegu\",\"data\":{\"label\":\"operatorNode_AHegu\",\"operator\":1,\"variableName\":\"operatorNode_AHegu\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":0},\"operand_2\":{\"type\":\"number\",\"value\":2.5}}},\"type\":\"operatorNode\",\"width\":160,\"height\":147,\"dragging\":false,\"position\":{\"x\":68.18723968231467,\"y\":-1285.3365927809232},\"selected\":false,\"positionAbsolute\":{\"x\":68.18723968231467,\"y\":-1285.3365927809232}},{\"id\":\"valueNode_lZHtu\",\"data\":{\"max\":10,\"label\":\"valueNode_lZHtu\",\"value\":1,\"variableName\":\"valueNode_lZHtu\"},\"type\":\"valueNode\",\"width\":160,\"height\":66,\"dragging\":false,\"position\":{\"x\":-195.8088968839737,\"y\":-1173.8971259472635},\"selected\":false,\"positionAbsolute\":{\"x\":-195.8088968839737,\"y\":-1173.8971259472635}},{\"id\":\"visualizationNode_LYPOZ\",\"data\":{\"label\":\"visualizationNode_LYPOZ\",\"variableName\":\"visualizationNode_LYPOZ\"},\"type\":\"visualizationNode\",\"width\":328,\"height\":344,\"dragging\":false,\"position\":{\"x\":667.9618856658795,\"y\":-1322.8291704344292},\"selected\":false,\"positionAbsolute\":{\"x\":667.9618856658795,\"y\":-1322.8291704344292}},{\"id\":\"subGraphOutputNode_dHexz\",\"data\":{\"label\":\"subGraphOutputNode_dHexz\",\"outputs\":{\"6eq\":{\"name\":\"Normal Output\",\"type\":\"number\"},\"iiw\":{\"name\":\"Reverse Output\",\"type\":\"number\"}},\"variableName\":\"subGraphOutputNode_dHexz\",\"defaultValues\":{\"6eq\":{\"type\":\"number\",\"value\":0},\"iiw\":{\"type\":\"number\",\"value\":0.11}}},\"type\":\"subGraphOutputNode\",\"width\":160,\"height\":121,\"dragging\":false,\"position\":{\"x\":649.301650118796,\"y\":-921.5106663745356},\"selected\":false,\"positionAbsolute\":{\"x\":649.301650118796,\"y\":-921.5106663745356}}],\"viewport\":{\"x\":824.535160860398,\"y\":1641.9231904708736,\"zoom\":0.9645981845841377}},\"variableName\":\"subGraphNode_QqQGC\"},\"type\":\"subGraphNode\",\"dragging\":false,\"position\":{\"x\":1408.2405904199231,\"y\":420.96289499986756},\"selected\":false,\"positionAbsolute\":{\"x\":1408.2405904199231,\"y\":420.96289499986756}},{\"width\":192,\"height\":96,\"id\":\"canvasEyeTrackingNode_zuYwV\",\"data\":{\"label\":\"canvasEyeTrackingNode_zuYwV\",\"variableName\":\"canvasEyeTrackingNode_zuYwV\"},\"type\":\"canvasEyeTrackingNode\",\"dragging\":false,\"position\":{\"x\":930.314814684679,\"y\":567.1538723421754},\"selected\":false,\"positionAbsolute\":{\"x\":930.314814684679,\"y\":567.1538723421754}},{\"width\":192,\"height\":147,\"id\":\"operatorNode_biWzB\",\"data\":{\"label\":\"operatorNode_biWzB\",\"operator\":2,\"variableName\":\"operatorNode_biWzB\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":0},\"operand_2\":{\"type\":\"number\",\"value\":0.75}}},\"type\":\"operatorNode\",\"dragging\":false,\"position\":{\"x\":1218.886481999994,\"y\":691.383945619936},\"selected\":false,\"positionAbsolute\":{\"x\":1218.886481999994,\"y\":691.383945619936}},{\"width\":192,\"height\":94,\"id\":\"timeNode_IqLqJ\",\"data\":{\"time\":0,\"type\":\"currentTime\",\"label\":\"timeNode_IqLqJ\",\"variableName\":\"timeNode_IqLqJ\"},\"type\":\"timeNode\",\"dragging\":false,\"position\":{\"x\":1040.860401555792,\"y\":902.1291740725788},\"selected\":false,\"positionAbsolute\":{\"x\":1040.860401555792,\"y\":902.1291740725788}},{\"width\":196,\"height\":74,\"id\":\"easingNode_KQUUK\",\"data\":{\"label\":\"easingNode_KQUUK\",\"easingFn\":\"easeInSine\",\"variableName\":\"easingNode_KQUUK\"},\"type\":\"easingNode\",\"dragging\":false,\"position\":{\"x\":1315.8199061559071,\"y\":905.5803797743671},\"selected\":true,\"positionAbsolute\":{\"x\":1315.8199061559071,\"y\":905.5803797743671}},{\"width\":192,\"height\":94,\"id\":\"timeNode_SxEam\",\"data\":{\"time\":0,\"type\":\"currentTime\",\"label\":\"timeNode_SxEam\",\"variableName\":\"timeNode_SxEam\"},\"type\":\"timeNode\",\"dragging\":false,\"position\":{\"x\":315.48758343216093,\"y\":2460.9217619568244},\"selected\":false,\"positionAbsolute\":{\"x\":315.48758343216093,\"y\":2460.9217619568244}},{\"width\":196,\"height\":74,\"id\":\"easingNode_tbZaS\",\"data\":{\"label\":\"easingNode_tbZaS\",\"easingFn\":\"easeInOutSine\",\"variableName\":\"easingNode_tbZaS\"},\"type\":\"easingNode\",\"dragging\":false,\"position\":{\"x\":955.6034200664815,\"y\":2331.227687762566},\"selected\":false,\"positionAbsolute\":{\"x\":955.6034200664815,\"y\":2331.227687762566}},{\"width\":192,\"height\":147,\"id\":\"operatorNode_hNvJJ\",\"data\":{\"label\":\"operatorNode_hNvJJ\",\"operator\":1,\"variableName\":\"operatorNode_hNvJJ\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":0},\"operand_2\":{\"type\":\"number\",\"value\":1.25}}},\"type\":\"operatorNode\",\"dragging\":false,\"position\":{\"x\":966.8771559227132,\"y\":2536.4473456748538},\"selected\":false,\"positionAbsolute\":{\"x\":966.8771559227132,\"y\":2536.4473456748538}},{\"width\":196,\"height\":74,\"id\":\"easingNode_zosaw\",\"data\":{\"label\":\"easingNode_zosaw\",\"easingFn\":\"easeInOutSine\",\"variableName\":\"easingNode_zosaw\"},\"type\":\"easingNode\",\"dragging\":false,\"position\":{\"x\":1236.3857131645964,\"y\":2506.457347424589},\"selected\":false,\"positionAbsolute\":{\"x\":1236.3857131645964,\"y\":2506.457347424589}},{\"width\":352,\"height\":344,\"id\":\"visualizationNode_tWOIb\",\"data\":{\"label\":\"visualizationNode_tWOIb\",\"variableName\":\"visualizationNode_tWOIb\"},\"type\":\"visualizationNode\",\"dragging\":false,\"position\":{\"x\":1772.3298265888993,\"y\":2568.182020333279},\"selected\":false,\"positionAbsolute\":{\"x\":1772.3298265888993,\"y\":2568.182020333279}},{\"width\":352,\"height\":344,\"id\":\"visualizationNode_HETgo\",\"data\":{\"label\":\"visualizationNode_HETgo\",\"variableName\":\"visualizationNode_HETgo\"},\"type\":\"visualizationNode\",\"dragging\":false,\"position\":{\"x\":1761.7350331689115,\"y\":2184.639435219207},\"selected\":false,\"positionAbsolute\":{\"x\":1761.7350331689115,\"y\":2184.639435219207}},{\"width\":192,\"height\":147,\"id\":\"operatorNode_TQbfJ\",\"data\":{\"label\":\"operatorNode_TQbfJ\",\"operator\":2,\"variableName\":\"operatorNode_TQbfJ\",\"defaultValues\":{\"operand_1\":{\"type\":\"number\",\"value\":0},\"operand_2\":{\"type\":\"number\",\"value\":5}}},\"type\":\"operatorNode\",\"dragging\":false,\"position\":{\"x\":593.9787753747738,\"y\":2295.1699645869376},\"selected\":false,\"positionAbsolute\":{\"x\":593.9787753747738,\"y\":2295.1699645869376}}],\"edges\":[{\"id\":\"reactflow__edge-subGraphNode_QqQGC6eq-layerOutputNode_yIEEmmodel_blendshapes_EyeBlinkLeft\",\"source\":\"subGraphNode_QqQGC\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"6eq\",\"targetHandle\":\"model_blendshapes_EyeBlinkLeft\"},{\"id\":\"reactflow__edge-subGraphNode_QqQGC6eq-layerOutputNode_yIEEmmodel_blendshapes_EyeBlinkRight\",\"source\":\"subGraphNode_QqQGC\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"6eq\",\"targetHandle\":\"model_blendshapes_EyeBlinkRight\"},{\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosX-layerOutputNode_yIEEmmodel_blendshapes_L_eye_pupil_X\",\"source\":\"canvasEyeTrackingNode_zuYwV\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"canvasMousePosX\",\"targetHandle\":\"model_blendshapes_L_eye_pupil_X\"},{\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosX-layerOutputNode_yIEEmmodel_blendshapes_R_eye_pupil_X\",\"source\":\"canvasEyeTrackingNode_zuYwV\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"canvasMousePosX\",\"targetHandle\":\"model_blendshapes_R_eye_pupil_X\"},{\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosY-operatorNode_biWzBoperand_1\",\"source\":\"canvasEyeTrackingNode_zuYwV\",\"target\":\"operatorNode_biWzB\",\"sourceHandle\":\"canvasMousePosY\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-operatorNode_biWzBoutput-layerOutputNode_yIEEmmodel_blendshapes_R_eye_pupil_Y\",\"source\":\"operatorNode_biWzB\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"output\",\"targetHandle\":\"model_blendshapes_R_eye_pupil_Y\"},{\"id\":\"reactflow__edge-operatorNode_biWzBoutput-layerOutputNode_yIEEmmodel_blendshapes_L_eye_pupil_Y\",\"source\":\"operatorNode_biWzB\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"output\",\"targetHandle\":\"model_blendshapes_L_eye_pupil_Y\"},{\"id\":\"reactflow__edge-timeNode_IqLqJtime-easingNode_KQUUKx\",\"source\":\"timeNode_IqLqJ\",\"target\":\"easingNode_KQUUK\",\"sourceHandle\":\"time\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-easingNode_KQUUKy-layerOutputNode_yIEEmmodel_blendshapes_breath\",\"source\":\"easingNode_KQUUK\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"y\",\"targetHandle\":\"model_blendshapes_breath\"},{\"id\":\"reactflow__edge-operatorNode_hNvJJoutput-easingNode_zosawx\",\"source\":\"operatorNode_hNvJJ\",\"target\":\"easingNode_zosaw\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-easingNode_zosawy-visualizationNode_tWOIbvisualization_input\",\"source\":\"easingNode_zosaw\",\"target\":\"visualizationNode_tWOIb\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-easingNode_tbZaSy-visualizationNode_HETgovisualization_input\",\"source\":\"easingNode_tbZaS\",\"target\":\"visualizationNode_HETgo\",\"selected\":false,\"sourceHandle\":\"y\",\"targetHandle\":\"visualization_input\"},{\"id\":\"reactflow__edge-timeNode_SxEamtime-operatorNode_TQbfJoperand_1\",\"source\":\"timeNode_SxEam\",\"target\":\"operatorNode_TQbfJ\",\"selected\":false,\"sourceHandle\":\"time\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-operatorNode_TQbfJoutput-easingNode_tbZaSx\",\"source\":\"operatorNode_TQbfJ\",\"target\":\"easingNode_tbZaS\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"x\"},{\"id\":\"reactflow__edge-operatorNode_TQbfJoutput-operatorNode_hNvJJoperand_1\",\"source\":\"operatorNode_TQbfJ\",\"target\":\"operatorNode_hNvJJ\",\"selected\":false,\"sourceHandle\":\"output\",\"targetHandle\":\"operand_1\"},{\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosX-layerOutputNode_yIEEmmodel_blendshapes_Head\",\"source\":\"canvasEyeTrackingNode_zuYwV\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"canvasMousePosX\",\"targetHandle\":\"model_blendshapes_Head\"},{\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosX-layerOutputNode_yIEEmmodel_blendshapes_Head_X\",\"source\":\"canvasEyeTrackingNode_zuYwV\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"canvasMousePosX\",\"targetHandle\":\"model_blendshapes_Head_X\"},{\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosY-layerOutputNode_yIEEmmodel_blendshapes_Head_Y\",\"source\":\"canvasEyeTrackingNode_zuYwV\",\"target\":\"layerOutputNode_yIEEm\",\"sourceHandle\":\"canvasMousePosY\",\"targetHandle\":\"model_blendshapes_Head_Y\"},{\"source\":\"canvasEyeTrackingNode_zuYwV\",\"sourceHandle\":\"canvasMousePosX\",\"target\":\"layerOutputNode_yIEEm\",\"targetHandle\":\"model_blendshapes_Head_R\",\"id\":\"reactflow__edge-canvasEyeTrackingNode_zuYwVcanvasMousePosX-layerOutputNode_yIEEmmodel_blendshapes_Head_R\"}],\"viewport\":{\"x\":-107.04982240300615,\"y\":75.34684433300231,\"zoom\":0.6597539553864472}}",
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      7,
+      29,
+      0,
+      7,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      9,
+      7,
+      0,
+      8,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      11,
+      8,
+      0,
+      9,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      12,
+      9,
+      0,
+      10,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      17,
+      18,
+      1,
+      17,
+      0,
+      "IMAGE"
+    ],
+    [
+      18,
+      23,
+      0,
+      19,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      19,
+      2,
+      0,
+      20,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      20,
+      18,
+      0,
+      20,
+      1,
+      "BPY_OBJ"
+    ],
+    [
+      21,
+      25,
+      0,
+      21,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      22,
+      22,
+      0,
+      21,
+      1,
+      "B_ENUM"
+    ],
+    [
+      23,
+      21,
+      0,
+      23,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      24,
+      24,
+      0,
+      23,
+      1,
+      "B_ENUM"
+    ],
+    [
+      25,
+      20,
+      0,
+      25,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      26,
+      30,
+      0,
+      26,
+      2,
+      "B_VECTOR3"
+    ],
+    [
+      27,
+      26,
+      0,
+      27,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      28,
+      33,
+      0,
+      28,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      29,
+      28,
+      0,
+      29,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      30,
+      27,
+      0,
+      29,
+      1,
+      "BPY_OBJ"
+    ],
+    [
+      31,
+      32,
+      0,
+      31,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      32,
+      4,
+      0,
+      32,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      33,
+      31,
+      0,
+      33,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      35,
+      34,
+      0,
+      35,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      36,
+      37,
+      1,
+      36,
+      0,
+      "IMAGE"
+    ],
+    [
+      37,
+      42,
+      0,
+      38,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      38,
+      3,
+      0,
+      39,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      39,
+      37,
+      0,
+      39,
+      1,
+      "BPY_OBJ"
+    ],
+    [
+      40,
+      44,
+      0,
+      40,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      41,
+      41,
+      0,
+      40,
+      1,
+      "B_ENUM"
+    ],
+    [
+      42,
+      40,
+      0,
+      42,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      43,
+      43,
+      0,
+      42,
+      1,
+      "B_ENUM"
+    ],
+    [
+      44,
+      39,
+      0,
+      44,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      45,
+      35,
+      0,
+      45,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      46,
+      45,
+      0,
+      46,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      47,
+      48,
+      1,
+      47,
+      0,
+      "IMAGE"
+    ],
+    [
+      48,
+      46,
+      0,
+      49,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      51,
+      59,
+      0,
+      57,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      57,
+      1,
+      0,
+      64,
+      0,
+      "IMAGE"
+    ],
+    [
+      58,
+      64,
+      1,
+      2,
+      0,
+      "IMAGE"
+    ],
+    [
+      59,
+      64,
+      3,
+      18,
+      0,
+      "IMAGE"
+    ],
+    [
+      60,
+      64,
+      2,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      61,
+      64,
+      4,
+      37,
+      0,
+      "IMAGE"
+    ],
+    [
+      62,
+      64,
+      5,
+      54,
+      0,
+      "IMAGE"
+    ],
+    [
+      63,
+      58,
+      0,
+      56,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      64,
+      55,
+      0,
+      58,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      65,
+      54,
+      0,
+      55,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      66,
+      19,
+      0,
+      55,
+      1,
+      "BPY_OBJ"
+    ],
+    [
+      67,
+      38,
+      0,
+      55,
+      2,
+      "BPY_OBJ"
+    ],
+    [
+      70,
+      56,
+      0,
+      4,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      71,
+      64,
+      6,
+      48,
+      0,
+      "IMAGE"
+    ],
+    [
+      72,
+      48,
+      0,
+      4,
+      1,
+      "BPY_OBJ"
+    ],
+    [
+      75,
+      14,
+      0,
+      50,
+      2,
+      "SHAPE_FLOW"
+    ],
+    [
+      76,
+      49,
+      0,
+      59,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      78,
+      57,
+      0,
+      65,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      79,
+      65,
+      0,
+      50,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      80,
+      10,
+      0,
+      34,
+      0,
+      "BPY_OBJ"
+    ],
+    [
+      82,
+      1,
+      0,
+      66,
+      0,
+      "*"
+    ],
+    [
+      83,
+      66,
+      0,
+      7,
+      1,
+      "IMAGE"
+    ],
+    [
+      84,
+      66,
+      0,
+      8,
+      1,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "shapekey",
+      "bounding": [
+        3179,
+        3147,
+        1923,
+        829
+      ],
+      "color": "#8A8",
+      "id": "328c076d-3968-498f-b34c-e8df8e3c1f76",
+      "isStack": false
+    },
+    {
+      "title": "cleanup mesh + texture",
+      "bounding": [
+        4976,
+        2327,
+        821,
+        794
+      ],
+      "color": "#b58b2a",
+      "id": "5b87f297-1aa3-473c-8572-8186c221ec48",
+      "isStack": false
+    },
+    {
+      "title": "segment",
+      "bounding": [
+        19,
+        2309,
+        676,
+        511
+      ],
+      "color": "#3f789e",
+      "id": "74b1009e-bda5-4a8a-9184-25efcf99ca29",
+      "isStack": false
+    },
+    {
+      "title": "blink+iris",
+      "bounding": [
+        1040,
+        2333,
+        1846,
+        1656
+      ],
+      "color": "#3f789e",
+      "id": "49b6d62d-1486-4c9c-afb6-974a60b42b94",
+      "isStack": false
+    },
+    {
+      "title": "head",
+      "bounding": [
+        3130,
+        2344,
+        638,
+        649
+      ],
+      "color": "#3f789e",
+      "id": "baa70d1a-e22a-4bcb-9f3e-28f1661101e7",
+      "isStack": false
+    },
+    {
+      "title": "breath",
+      "bounding": [
+        3996,
+        2346,
+        705,
+        632
+      ],
+      "color": "#3f789e",
+      "id": "50dc9280-a83d-4797-9e43-9d18b3284c05",
+      "isStack": false
+    }
+  ],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
